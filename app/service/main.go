@@ -1,8 +1,8 @@
 package main
 
 import (
-	"{{.Module}}/app/service/api/v1"
-	"{{.Module}}/extensions/xfx"
+	"{{.module}}/app/service/api/v1"
+	"{{.module}}/extensions/xfx"
 
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxevent"

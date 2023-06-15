@@ -27,7 +27,7 @@ func (h *HelloHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if _, err := fmt.Fprintf(w, "Hello, %s\n", body); err != nil {
+	if _, err := fmt.Fprintf(w, "{{.greeting}}, %s\n", body); err != nil {
 		http.Error(w, "Internal server error", http.StatusInternalServerError)
 		return
 	}

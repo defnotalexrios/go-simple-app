@@ -1,10 +1,9 @@
 {
-  "name": "simple-app",
   "vars": [
     {
-      "var": "{{.Module}}",
-      "description": "The Go module identifier",
-      "default": "github.com/alexrios/poc-app"
+      "var": "greeting",
+      "description": "Greeting message",
+      "default": "Hello World!"
     }
   ]
 }
