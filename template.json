@@ -1,4 +1,5 @@
 {
+  "module": "go-simples-app",
   "vars": [
     {
       "var": "greeting",
